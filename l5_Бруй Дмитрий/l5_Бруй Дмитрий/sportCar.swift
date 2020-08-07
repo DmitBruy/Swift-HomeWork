@@ -11,6 +11,10 @@ import Foundation
 // 3-е задание
 
 class SporCar: Car {
+    var marc: String
+    
+    var year: String
+    
     
     let brand: String
     let year: Int

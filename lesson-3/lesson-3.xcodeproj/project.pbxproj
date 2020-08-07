@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCEA782524D95183006FBF9E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA782424D95183006FBF9E /* main.swift */; };
-		DCEA782C24D9528E006FBF9E /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA782B24D9528E006FBF9E /* Protocol.swift */; };
-		DCEA782E24D9559D006FBF9E /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA782D24D9559D006FBF9E /* extension.swift */; };
-		DCEA783024D968B8006FBF9E /* TrunkCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA782F24D968B8006FBF9E /* TrunkCar.swift */; };
-		DCEA783224D968EB006FBF9E /* sportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA783124D968EB006FBF9E /* sportCar.swift */; };
+		DCAC96E424D2009100092579 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC96E324D2009100092579 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DCEA781F24D95183006FBF9E /* CopyFiles */ = {
+		DCAC96DE24D2009100092579 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,16 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DCEA782124D95183006FBF9E /* l5_Бруй Дмитрий */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "l5_Бруй Дмитрий"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCEA782424D95183006FBF9E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		DCEA782B24D9528E006FBF9E /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
-		DCEA782D24D9559D006FBF9E /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
-		DCEA782F24D968B8006FBF9E /* TrunkCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrunkCar.swift; sourceTree = "<group>"; };
-		DCEA783124D968EB006FBF9E /* sportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sportCar.swift; sourceTree = "<group>"; };
+		DCAC96E024D2009100092579 /* lesson-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lesson-3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAC96E324D2009100092579 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCEA781E24D95183006FBF9E /* Frameworks */ = {
+		DCAC96DD24D2009100092579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,70 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCEA781824D95183006FBF9E = {
+		DCAC96D724D2009100092579 = {
 			isa = PBXGroup;
 			children = (
-				DCEA782324D95183006FBF9E /* l5_Бруй Дмитрий */,
-				DCEA782224D95183006FBF9E /* Products */,
+				DCAC96E224D2009100092579 /* lesson-3 */,
+				DCAC96E124D2009100092579 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DCEA782224D95183006FBF9E /* Products */ = {
+		DCAC96E124D2009100092579 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCEA782124D95183006FBF9E /* l5_Бруй Дмитрий */,
+				DCAC96E024D2009100092579 /* lesson-3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCEA782324D95183006FBF9E /* l5_Бруй Дмитрий */ = {
+		DCAC96E224D2009100092579 /* lesson-3 */ = {
 			isa = PBXGroup;
 			children = (
-				DCEA782424D95183006FBF9E /* main.swift */,
-				DCEA782B24D9528E006FBF9E /* Protocol.swift */,
-				DCEA782D24D9559D006FBF9E /* extension.swift */,
-				DCEA783124D968EB006FBF9E /* sportCar.swift */,
-				DCEA782F24D968B8006FBF9E /* TrunkCar.swift */,
+				DCAC96E324D2009100092579 /* main.swift */,
 			);
-			path = "l5_Бруй Дмитрий";
+			path = "lesson-3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCEA782024D95183006FBF9E /* l5_Бруй Дмитрий */ = {
+		DCAC96DF24D2009100092579 /* lesson-3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCEA782824D95183006FBF9E /* Build configuration list for PBXNativeTarget "l5_Бруй Дмитрий" */;
+			buildConfigurationList = DCAC96E724D2009100092579 /* Build configuration list for PBXNativeTarget "lesson-3" */;
 			buildPhases = (
-				DCEA781D24D95183006FBF9E /* Sources */,
-				DCEA781E24D95183006FBF9E /* Frameworks */,
-				DCEA781F24D95183006FBF9E /* CopyFiles */,
+				DCAC96DC24D2009100092579 /* Sources */,
+				DCAC96DD24D2009100092579 /* Frameworks */,
+				DCAC96DE24D2009100092579 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "l5_Бруй Дмитрий";
-			productName = "l5_Бруй Дмитрий";
-			productReference = DCEA782124D95183006FBF9E /* l5_Бруй Дмитрий */;
+			name = "lesson-3";
+			productName = "lesson-3";
+			productReference = DCAC96E024D2009100092579 /* lesson-3 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCEA781924D95183006FBF9E /* Project object */ = {
+		DCAC96D824D2009100092579 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Дмитрий Бруй";
 				TargetAttributes = {
-					DCEA782024D95183006FBF9E = {
+					DCAC96DF24D2009100092579 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = DCEA781C24D95183006FBF9E /* Build configuration list for PBXProject "l5_Бруй Дмитрий" */;
+			buildConfigurationList = DCAC96DB24D2009100092579 /* Build configuration list for PBXProject "lesson-3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,33 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = DCEA781824D95183006FBF9E;
-			productRefGroup = DCEA782224D95183006FBF9E /* Products */;
+			mainGroup = DCAC96D724D2009100092579;
+			productRefGroup = DCAC96E124D2009100092579 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCEA782024D95183006FBF9E /* l5_Бруй Дмитрий */,
+				DCAC96DF24D2009100092579 /* lesson-3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DCEA781D24D95183006FBF9E /* Sources */ = {
+		DCAC96DC24D2009100092579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCEA782E24D9559D006FBF9E /* extension.swift in Sources */,
-				DCEA783224D968EB006FBF9E /* sportCar.swift in Sources */,
-				DCEA782524D95183006FBF9E /* main.swift in Sources */,
-				DCEA782C24D9528E006FBF9E /* Protocol.swift in Sources */,
-				DCEA783024D968B8006FBF9E /* TrunkCar.swift in Sources */,
+				DCAC96E424D2009100092579 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DCEA782624D95183006FBF9E /* Debug */ = {
+		DCAC96E524D2009100092579 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		DCEA782724D95183006FBF9E /* Release */ = {
+		DCAC96E624D2009100092579 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +240,7 @@
 			};
 			name = Release;
 		};
-		DCEA782924D95183006FBF9E /* Debug */ = {
+		DCAC96E824D2009100092579 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		DCEA782A24D95183006FBF9E /* Release */ = {
+		DCAC96E924D2009100092579 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -277,25 +261,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCEA781C24D95183006FBF9E /* Build configuration list for PBXProject "l5_Бруй Дмитрий" */ = {
+		DCAC96DB24D2009100092579 /* Build configuration list for PBXProject "lesson-3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCEA782624D95183006FBF9E /* Debug */,
-				DCEA782724D95183006FBF9E /* Release */,
+				DCAC96E524D2009100092579 /* Debug */,
+				DCAC96E624D2009100092579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCEA782824D95183006FBF9E /* Build configuration list for PBXNativeTarget "l5_Бруй Дмитрий" */ = {
+		DCAC96E724D2009100092579 /* Build configuration list for PBXNativeTarget "lesson-3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCEA782924D95183006FBF9E /* Debug */,
-				DCEA782A24D95183006FBF9E /* Release */,
+				DCAC96E824D2009100092579 /* Debug */,
+				DCAC96E924D2009100092579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCEA781924D95183006FBF9E /* Project object */;
+	rootObject = DCAC96D824D2009100092579 /* Project object */;
 }
